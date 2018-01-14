@@ -1,0 +1,11 @@
+@media screen and (max-width: 640px) {
+  body {
+    min-width: inherit; }
+
+  .w-max {
+    width: 100%; }
+
+  .top {
+    padding: 0 10px; } }
+
+/*# sourceMappingURL=media640.css.map */

@@ -761,8 +761,8 @@ body {
         margin: 0 auto;
         transition: all 0.2s;
       }
-      &.active ,&:hover{
-        &:after{
+      &.active, &:hover {
+        &:after {
           width: 100%;
 
         }
@@ -781,6 +781,7 @@ body {
 
 .page_title {
   padding-top: 40px;
+  border-bottom: 1px solid #d09d4a;
   h3 {
     font-size: 30px;
     color: #ca8007;
@@ -805,22 +806,332 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.page_about{
-  .content{
+
+.page_about {
+  .content {
     padding-bottom: 80px;
   }
-  .f1{
-    p{
+  .f1 {
+    p {
       text-indent: 2em;
     }
-    .fr{
+    .fr {
       background-color: #fff;
     }
-    .video_wp{
+    .video_wp {
 
     }
   }
-  .fl.section{
+  .fl.section {
     width: 100%;
+  }
+}
+
+.page_contact {
+
+  .form_wp {
+    width: 593px;
+    padding: 30px;
+    background-color: #000;
+    //margin-top: 60px;
+    margin: 60px 30px;
+    h3 {
+      text-align: center;
+      font-size: 30px;
+      color: #ffffff;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      span {
+        font-size: 18px;
+      }
+    }
+    .input_wp {
+      margin-bottom: 30px;
+      font-size: 0;
+      span {
+        width: 20%;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 2;
+        display: inline-block;
+        vertical-align: top;
+      }
+      input {
+        width: 80%;
+        height: 48px;
+        border: none;
+        padding: 5px;
+        font-size: 16px;
+      }
+      textarea {
+        width: 80%;
+        height: 138px;
+        resize: none;
+      }
+    }
+    .submit {
+      a {
+        display: block;
+        width: 300px;
+        height: 48px;
+        background-color: #d09d4a;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 48px;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+  }
+  .text_wp {
+    width: 411px;
+    margin: 60px;
+    h3 {
+      text-align: left;
+      font-size: 30px;
+      color: #000;
+      line-height: 1.5;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      span {
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+    }
+    h4 {
+      font-size: 20px;
+      color: #c9a063;
+      line-height: 1.8;
+    }
+    p {
+      font-size: 16px;
+      color: #000;
+      line-height: 1.8;
+    }
+    .ma_wp {
+      text-align: center;
+      padding-top: 50px;
+
+      .ma {
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        margin: 20px;
+        img {
+          width: 78px;
+          height: 78px;
+          margin: 10px auto;
+        }
+        p {
+          font-size: 14px;
+          color: #2e2e2e;
+          line-height: 2;
+        }
+      }
+
+    }
+  }
+  .map_wp {
+    border-top: 1px solid #d2d2d2;
+    padding-top: 20px;
+    float: left;
+    width: 100%;
+    h3 {
+      font-size: 14px;
+      color: #6f6f6f;
+      margin-bottom: 20px;
+    }
+    #allmap {
+      width: 100%;
+      height: 430px;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+.page_brand {
+  .w-max {
+    padding-bottom: 100px;
+  }
+  .section {
+    padding-top: 30px;
+    font-size: 0;
+    .text_wp {
+      float: left;
+      width: 50%;
+      h3 {
+        font-size: 24px;
+        color: #ad6d05;
+        line-height: 2;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 14px;
+        color: #252525;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+    }
+    .img_wp {
+      float: left;
+      width: 45%;
+      margin-left: 2.5%;
+      margin-top: 5%;
+      margin-right: 2.5%;
+    }
+  }
+}
+
+.page_news {
+  .news_list {
+    .item {
+      padding: 35px 0;
+      border-bottom: 1px solid #e9e9e9;
+      overflow: hidden;
+    }
+    .img_wp {
+      float: left;
+      width: 455px;
+      height: 210px;
+    }
+    .des {
+      //width: 100%;
+      margin-left: 500px;
+      h3 {
+        font-size: 18px;
+        color: #ac6a00;
+        line-height: 1.5;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 15px;
+        span {
+          float: right;
+          font-size: 14px;
+          color: #7e7e7e;
+        }
+      }
+      p {
+        font-size: 14px;
+        color: #444444;
+        line-height: 2;
+        height: 128px;
+        overflow: hidden;
+      }
+
+    }
+  }
+  .paging {
+    text-align: center;
+    font-size: 0;
+    margin: 60px 0 100px;
+    a {
+      display: inline-block;
+      padding: 0 14px;
+      font-size: 14px;
+      line-height: 32px;
+      color: #4778a2;
+      border: 1px solid #4778a2;
+      margin-right: -1px;
+      &:hover, &.active {
+        background-color: #4778a2;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.page_college {
+  .f6 {
+    .section {
+      overflow: hidden;
+      padding-bottom: 40px;
+      border-bottom:1px solid #e5e5e5;
+      h5 {
+        padding: 30px 0;
+        &:before{
+          content: "";
+          height: 30px;
+          display: inline-block;
+          width: 4px;
+          background-color: #d09d4a;
+          vertical-align: middle;
+        }
+        p{
+          display: inline-block;
+          font-size: 24px;
+          color: #101010;
+          line-height: 30px;
+          margin-left: 10px;
+          margin-right: 80px;
+          vertical-align: middle;
+        }
+        span{
+          font-size: 14px;
+          color: #404040;
+          line-height: 30px;
+          margin-right: 15px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+.page_detail{
+  .article_title{
+    padding-top: 50px;
+    overflow: hidden;
+    border-bottom:1px solid #d09d4a;
+    padding-bottom: 10px;
+    p{
+      font-size: 14px;
+      color: #2f2f2f;
+      margin-top: -23px;
+    }
+    h3{
+      text-align: center;
+      font-size: 30px;
+      color: #181818;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+    span{
+      display: block;
+      text-align: center;
+      font-size: 14px;
+      color: #808080;
+      line-height: 1.5;
+    }
+  }
+  .article_content{
+    padding:  40px;
+    border-bottom:1px solid #d2d2d2;
+    p{
+      font-size: 14px;
+      color: #414141;
+      line-height: 2;
+    }
+    img{
+      display: block;
+      margin: 20px auto;
+
+    }
+  }
+  .paging{
+    padding-top: 22px;
+    padding-left: 42px;
+    padding-bottom: 60px;
+
+      a{
+        display: block;
+        font-size: 14px;
+        line-height: 2;
+        color: #020202;
+        &:hover{
+          color: #d09d4a;
+          text-decoration: underline;
+        }
+    }
   }
 }

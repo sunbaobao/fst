@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oCAAqC;EAEnC,IAAK;IACH,SAAS,EAAE,OAAO;;EAEpB,MAAO;IACL,KAAK,EAAE,IAAI;;EAEb,IAAI;IACF,OAAO,EAAE,MAAM",
+"sources": ["../scss/media640.scss"],
+"names": [],
+"file": "media640.css"
+}

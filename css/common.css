@@ -593,7 +593,8 @@ body {
     vertical-align: sub; }
 
 .page_title {
-  padding-top: 40px; }
+  padding-top: 40px;
+  border-bottom: 1px solid #d09d4a; }
   .page_title h3 {
     font-size: 30px;
     color: #ca8007;
@@ -622,5 +623,241 @@ body {
   background-color: #fff; }
 .page_about .fl.section {
   width: 100%; }
+
+.page_contact .form_wp {
+  width: 593px;
+  padding: 30px;
+  background-color: #000;
+  margin: 60px 30px; }
+  .page_contact .form_wp h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-transform: uppercase; }
+    .page_contact .form_wp h3 span {
+      font-size: 18px; }
+  .page_contact .form_wp .input_wp {
+    margin-bottom: 30px;
+    font-size: 0; }
+    .page_contact .form_wp .input_wp span {
+      width: 20%;
+      color: #ffffff;
+      font-size: 14px;
+      line-height: 2;
+      display: inline-block;
+      vertical-align: top; }
+    .page_contact .form_wp .input_wp input {
+      width: 80%;
+      height: 48px;
+      border: none;
+      padding: 5px;
+      font-size: 16px; }
+    .page_contact .form_wp .input_wp textarea {
+      width: 80%;
+      height: 138px;
+      resize: none; }
+  .page_contact .form_wp .submit a {
+    display: block;
+    width: 300px;
+    height: 48px;
+    background-color: #d09d4a;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+    margin: 0 auto; }
+.page_contact .text_wp {
+  width: 411px;
+  margin: 60px; }
+  .page_contact .text_wp h3 {
+    text-align: left;
+    font-size: 30px;
+    color: #000;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    margin-top: 20px; }
+    .page_contact .text_wp h3 span {
+      font-size: 18px;
+      text-transform: uppercase; }
+  .page_contact .text_wp h4 {
+    font-size: 20px;
+    color: #c9a063;
+    line-height: 1.8; }
+  .page_contact .text_wp p {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.8; }
+  .page_contact .text_wp .ma_wp {
+    text-align: center;
+    padding-top: 50px; }
+    .page_contact .text_wp .ma_wp .ma {
+      display: inline-block;
+      width: 120px;
+      text-align: center;
+      margin: 20px; }
+      .page_contact .text_wp .ma_wp .ma img {
+        width: 78px;
+        height: 78px;
+        margin: 10px auto; }
+      .page_contact .text_wp .ma_wp .ma p {
+        font-size: 14px;
+        color: #2e2e2e;
+        line-height: 2; }
+.page_contact .map_wp {
+  border-top: 1px solid #d2d2d2;
+  padding-top: 20px;
+  float: left;
+  width: 100%; }
+  .page_contact .map_wp h3 {
+    font-size: 14px;
+    color: #6f6f6f;
+    margin-bottom: 20px; }
+  .page_contact .map_wp #allmap {
+    width: 100%;
+    height: 430px;
+    margin-bottom: 60px; }
+
+.page_brand .w-max {
+  padding-bottom: 100px; }
+.page_brand .section {
+  padding-top: 30px;
+  font-size: 0; }
+  .page_brand .section .text_wp {
+    float: left;
+    width: 50%; }
+    .page_brand .section .text_wp h3 {
+      font-size: 24px;
+      color: #ad6d05;
+      line-height: 2;
+      margin-bottom: 15px; }
+    .page_brand .section .text_wp p {
+      font-size: 14px;
+      color: #252525;
+      line-height: 24px;
+      margin-bottom: 20px; }
+  .page_brand .section .img_wp {
+    float: left;
+    width: 45%;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    margin-right: 2.5%; }
+
+.page_news .news_list .item {
+  padding: 35px 0;
+  border-bottom: 1px solid #e9e9e9;
+  overflow: hidden; }
+.page_news .news_list .img_wp {
+  float: left;
+  width: 455px;
+  height: 210px; }
+.page_news .news_list .des {
+  margin-left: 500px; }
+  .page_news .news_list .des h3 {
+    font-size: 18px;
+    color: #ac6a00;
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 15px; }
+    .page_news .news_list .des h3 span {
+      float: right;
+      font-size: 14px;
+      color: #7e7e7e; }
+  .page_news .news_list .des p {
+    font-size: 14px;
+    color: #444444;
+    line-height: 2;
+    height: 128px;
+    overflow: hidden; }
+.page_news .paging {
+  text-align: center;
+  font-size: 0;
+  margin: 60px 0 100px; }
+  .page_news .paging a {
+    display: inline-block;
+    padding: 0 14px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #4778a2;
+    border: 1px solid #4778a2;
+    margin-right: -1px; }
+    .page_news .paging a:hover, .page_news .paging a.active {
+      background-color: #4778a2;
+      color: #ffffff; }
+
+.page_college .f6 .section {
+  overflow: hidden;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e5e5e5; }
+  .page_college .f6 .section h5 {
+    padding: 30px 0; }
+    .page_college .f6 .section h5:before {
+      content: "";
+      height: 30px;
+      display: inline-block;
+      width: 4px;
+      background-color: #d09d4a;
+      vertical-align: middle; }
+    .page_college .f6 .section h5 p {
+      display: inline-block;
+      font-size: 24px;
+      color: #101010;
+      line-height: 30px;
+      margin-left: 10px;
+      margin-right: 80px;
+      vertical-align: middle; }
+    .page_college .f6 .section h5 span {
+      font-size: 14px;
+      color: #404040;
+      line-height: 30px;
+      margin-right: 15px;
+      vertical-align: middle; }
+
+.page_detail .article_title {
+  padding-top: 50px;
+  overflow: hidden;
+  border-bottom: 1px solid #d09d4a;
+  padding-bottom: 10px; }
+  .page_detail .article_title p {
+    font-size: 14px;
+    color: #2f2f2f;
+    margin-top: -23px; }
+  .page_detail .article_title h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #181818;
+    line-height: 1.5;
+    margin-bottom: 10px; }
+  .page_detail .article_title span {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #808080;
+    line-height: 1.5; }
+.page_detail .article_content {
+  padding: 40px;
+  border-bottom: 1px solid #d2d2d2; }
+  .page_detail .article_content p {
+    font-size: 14px;
+    color: #414141;
+    line-height: 2; }
+  .page_detail .article_content img {
+    display: block;
+    margin: 20px auto; }
+.page_detail .paging {
+  padding-top: 22px;
+  padding-left: 42px;
+  padding-bottom: 60px; }
+  .page_detail .paging a {
+    display: block;
+    font-size: 14px;
+    line-height: 2;
+    color: #020202; }
+    .page_detail .paging a:hover {
+      color: #d09d4a;
+      text-decoration: underline; }
 
 /*# sourceMappingURL=common.css.map */
